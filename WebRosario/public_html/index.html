@@ -1,16 +1,93 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Pagina de Rosario</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/css.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div>TODO write content</div>
+            <div class="container">
+                <div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary">Menu</button>
+                        <button type="button" class="btn btn-primary">Boton 2</button>
+                        <button type="button" class="btn btn-primary">Boton 3</button>
+                    </div> 
+
+                    <!--
+                    Ahora intenta darle acciones a los botones
+                    -->
+                    <a href="index.html">  </a>
+                </div>
+            </div>
+                <!--
+                <div>
+                    <ul>
+                        <li>
+                            <a href="pagina2.html">Pagina 2</a>
+                        </li>
+                        <li>
+                            <a href="pagina3.html">Pagina 3</a>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                -->
+        <div class="content">
+            <!-- Page content -->
+        </div>
+        <div class="header"> <img src="imagenes/05_29_10_2018-03.png" style="width:50%">
+        </div>
+        <div class="row">
+            <h3>En construcción ... </h3>
+            <p></p>
+        </div>
+         <!--
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("demo");
+                var captionText = document.getElementById("caption");
+                if (n > slides.length) {
+                    slideIndex = 1
+                }
+                if (n < 1) {
+                    slideIndex = slides.length
+                }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                captionText.innerHTML = dots[slideIndex - 1].alt;
+            }
+        </script>
+         -->
     </body>
 </html>
